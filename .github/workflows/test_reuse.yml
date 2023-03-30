@@ -8,4 +8,5 @@ on:
 jobs:
   call-lv-update-library:
     uses: jakub-uli/lv-test-action/.github/workflows/lv_update_library.yml@master
-    permissions: write
+    permissions:
+      contents: write
