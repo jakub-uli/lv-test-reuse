@@ -1,0 +1,10 @@
+name: Call update library
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  call-lv-update-library:
+    uses: jakub-uli/lv-test-action/.github/workflows/lv_update_library.yml@master
